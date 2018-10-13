@@ -1,5 +1,4 @@
 import {IPhysicalType} from "../../../shared-type/dist/src/physical-type/physical-type";
-//It looks like when using file name physical-type.interface.ts this cause resolution problem???
 
 export interface IPhysicalTypeService
 {
