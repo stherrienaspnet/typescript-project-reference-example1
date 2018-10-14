@@ -1,0 +1,8 @@
+{
+  "extends": "./config/base.tsconfig.json",
+  "compilerOptions": {
+    "composite": true, //Used for Project Reference
+    "declaration": true, //Used for Project Reference
+    "declarationMap": true //Used for Project Reference
+  }
+}
