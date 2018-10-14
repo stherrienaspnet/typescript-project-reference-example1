@@ -3,12 +3,14 @@
     "module": "commonjs",
     "target": "es6",
     "sourceMap": true,
-    "composite": true,
-    "declaration": true,
-    "declarationMap": true,
-    "outDir": "../dist",
-    "strict": true
+    "composite": true, //Used for Project Reference
+    "declaration": true, //Used for Project Reference
+    "declarationMap": true, //Used for Project Reference
+    "outDir": "dist"
   },
+  "include": [
+    "src/**/*.ts"
+  ],
   "exclude": [
     "node_modules"
   ],
