@@ -1,5 +1,6 @@
 import {IPhysicalType} from "../../../shared-type/dist/src/physical-type/physical-type.interface";
 
+
 export interface IPhysicalTypeService
 {
     getAll(): Array<IPhysicalType>

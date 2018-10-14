@@ -6,7 +6,8 @@
     "composite": true, //Used for Project Reference
     "declaration": true, //Used for Project Reference
     "declarationMap": true, //Used for Project Reference
-    "outDir": "dist"
+    "outDir": "dist",
+    "rootDir": "."
   },
   "include": [
     "src/**/*.ts"
