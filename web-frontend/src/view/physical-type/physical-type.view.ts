@@ -2,12 +2,18 @@ import {IPhysicalType} from "../../../../shared-type/dist/physical-type/physical
 
 export class PhysicalTypeView
 {
-    constructor(){}
+    private _types:Array<IPhysicalType>;
 
-    displayTypes(): Array<IPhysicalType> {
-        const types:Array<IPhysicalType> = [];
-        types.push({name:'temperature', symbol:'C'});
+    constructor(){
+        this.loadTypes();
+    }
 
-        return types;
+    loadTypes(): void {
+        this._types = [];
+        this._types.push({name:'temperature', symbol:'C'});
+    }
+
+    displayType(){
+        console.log(this._types);
     }
 }

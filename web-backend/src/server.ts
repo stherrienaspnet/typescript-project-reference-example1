@@ -8,8 +8,8 @@ export class Server
     {
         this._service = new PhysicalTypeService();
     }
+
+    printType(){
+        console.log(this._service.getAll());
+    }
 }
-
-const server = new Server();
-
-export default server;
