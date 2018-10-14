@@ -6,7 +6,7 @@
     "composite": true,
     "declaration": true,
     "declarationMap": true,
-    "outDir": "dist",
+    "outDir": "../dist",
     "strict": true
   },
   "exclude": [

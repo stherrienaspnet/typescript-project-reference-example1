@@ -1,4 +1,4 @@
-import {IPhysicalType} from "../../../../shared-type/dist/src/physical-type/physical-type";
+import {IPhysicalType} from "../../../../dist/src/physical-type/physical-type.interface";
 
 export class PhysicalTypeView
 {
