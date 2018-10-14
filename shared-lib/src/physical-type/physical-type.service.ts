@@ -1,5 +1,4 @@
-import {IPhysicalType} from "../../../shared-type/dist/src/physical-type/physical-type.interface";
-
+import {IPhysicalType} from "../../../shared-type/dist/physical-type/physical-type.interface";
 
 export interface IPhysicalTypeService
 {

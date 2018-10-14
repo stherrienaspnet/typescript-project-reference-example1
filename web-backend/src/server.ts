@@ -1,5 +1,4 @@
-import {IPhysicalTypeService, PhysicalTypeService} from "../../shared-lib/dist/src/physical-type/physical-type.service";
-
+import {IPhysicalTypeService, PhysicalTypeService} from "../../shared-lib/dist/physical-type/physical-type.service";
 
 export class Server
 {

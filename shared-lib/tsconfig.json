@@ -7,7 +7,7 @@
     "declaration": true, //Used for Project Reference
     "declarationMap": true, //Used for Project Reference
     "outDir": "dist",
-    "rootDir": "."
+    "rootDir": "src"
   },
   "include": [
     "src/**/*.ts"
